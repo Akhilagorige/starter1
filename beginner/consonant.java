@@ -12,7 +12,6 @@ import java.io.*;
 	{
 	int i=0;
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter a character : ");
 	char ch=sc.next( ).charAt(0);	 
 	//char ch=sc.nextChar();
 	switch(ch)
@@ -29,12 +28,12 @@ import java.io.*;
 	 case 'U'  :i++;
 	}
 	if(i==1)
-	System.out.println("Entered character "+ch+" is  Vowel");
+	System.out.println("Vowel");
 	else 
 		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
-		System.out.println("Entered character "+ch+" is Consonent");
+		System.out.println("Consonant");
 		else
-		System.out.println("Not an alphabet");		
+		System.out.println("invalid");		
 	}
 }
 // your code goes here
