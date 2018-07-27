@@ -15,6 +15,6 @@ class Ideone
         if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
             System.out.println( " Alphabet.");
         else
-            System.out.println( " not an Alphabet.");// your code goes here
+            System.out.println( "No");// your code goes here
 	}
 }
