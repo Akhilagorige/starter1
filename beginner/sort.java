@@ -33,6 +33,9 @@ class Ideone
         {
             System.out.print(a[i] + " ");
         }
-    }	// your code goes here
+    int m=n/2;
+		System.out.println(a[m]);
+	}	// your code goes here
 	
+}
 }
