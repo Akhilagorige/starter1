@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		Scanner s=new Scanner(System.in);
 		String str=s.nextLine();
-		int i,l,c1=0,c2=0,c3=0,sp=0;
+		int i,l,c1=0,c2=0,c3=0,sp=0,p=0;
 char ch;
 l=str.length();
 for(i=0;i<l;i++)
@@ -24,6 +24,8 @@ else if(Character.isDigit(ch))
 ++c2;
 else if(ch==' ')
 ++sp;
+else if(ch=='.')
+++p;
 else
 ++c3;
 }
