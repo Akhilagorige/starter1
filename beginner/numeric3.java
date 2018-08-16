@@ -16,13 +16,13 @@ class Ideone
 	b=(n.matches("-?\\d+(\\.\\d+)?"));
 	if(b)
 	{
-		System.out.println("yes");
+		System.out.println("Yes");
 		
 	}
 	
 	else
 	{
-	System.out.println("no");// your code goes here
+	System.out.println("No");// your code goes here
 	}
 }
 }
