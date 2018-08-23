@@ -12,7 +12,7 @@ class Ideone
 	int n;
 	Scanner s=new Scanner(System.in);
 	n=s.nextInt();
-	Switch(n)
+	switch(n)
 	{
 	case 1:System.out.println("One");
 	break;
