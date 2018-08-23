@@ -12,35 +12,35 @@ class Ideone
 	int n;
 	Scanner s=new Scanner(System.in);
 	n=s.nextInt();
-	switch(n)
+	Switch(n)
 	{
-	case 1:System.out.println("one");
+	case 1:System.out.println("One");
 	break;
-	case 2:System.out.println("two");
+	case 2:System.out.println("Two");
 	break;// your code goes here
 	
-	case 3:System.out.println("three");
+	case 3:System.out.println("Three");
 	break;// your code goes here
 	
-	case 4:System.out.println("four");
+	case 4:System.out.println("Four");
 	break;// your code goes here
 	
-	case 5:System.out.println("five");
+	case 5:System.out.println("Five");
 	break;// your code goes here
 	
-	case 6:System.out.println("six");
+	case 6:System.out.println("Six");
 	break;// your code goes here
 	
-	case 7:System.out.println("seven");
+	case 7:System.out.println("Seven");
 	break;// your code goes here
 	
-	case 8:System.out.println("eight");
+	case 8:System.out.println("Eight");
 	break;// your code goes here
 	
-	case 9:System.out.println("nine");
+	case 9:System.out.println("Nine");
 	break;// your code goes here
 	
-	case 10:System.out.println("ten");
+	case 10:System.out.println("Ten");
 	break;// your code goes here
 	default:System.out.println(" ");// your code goes here
 	}
